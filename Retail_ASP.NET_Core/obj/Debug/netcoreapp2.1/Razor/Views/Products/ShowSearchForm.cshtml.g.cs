@@ -57,7 +57,7 @@ using Retail_ASP.NET_Core.Models;
             WriteLiteral("\r\n<h4>Product</h4>\r\n<hr />\r\n<div class=\"row\">\r\n    <div class=\"col-md-4\">\r\n        ");
             EndContext();
             BeginContext(83, 698, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eae711bda578407c81d6ceadb224814f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43de5a0a6d3142eeabb1b1fb6df8a0a0", async() => {
                 BeginContext(120, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();
@@ -91,7 +91,7 @@ using Retail_ASP.NET_Core.Models;
             WriteLiteral("\r\n    </div>\r\n</div>\r\n\r\n<div>\r\n    ");
             EndContext();
             BeginContext(816, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc4bbd3f598e4430813ac88d10cbe5ec", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9b86cda06c054f03a70798a74fc85905", async() => {
                 BeginContext(838, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();
