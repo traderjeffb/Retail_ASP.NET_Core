@@ -45,3 +45,4 @@ C:\Projects\Retail_ASP.NET_Core_Solution\Retail_ASP.NET_Core\obj\Debug\netcoreap
 C:\Projects\Retail_ASP.NET_Core_Solution\Retail_ASP.NET_Core\obj\Debug\netcoreapp2.1\Razor\Views\Products\Edit.cshtml.g.cs
 C:\Projects\Retail_ASP.NET_Core_Solution\Retail_ASP.NET_Core\obj\Debug\netcoreapp2.1\Razor\Views\Products\Index.cshtml.g.cs
 C:\Projects\Retail_ASP.NET_Core_Solution\Retail_ASP.NET_Core\obj\Debug\netcoreapp2.1\Razor\Views\Products\ShowSearchForm.cshtml.g.cs
+C:\Projects\Retail_ASP.NET_Core_Solution\Retail_ASP.NET_Core\obj\Debug\netcoreapp2.1\Razor\Views\Products\ShowSearchResults.cshtml.g.cs

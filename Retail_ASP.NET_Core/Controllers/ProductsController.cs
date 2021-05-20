@@ -11,6 +11,7 @@ using Retail_ASP.NET_Core.Models;
 
 namespace Retail_ASP.NET_Core.Controllers
 {
+    [Authorize]
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -21,21 +22,18 @@ namespace Retail_ASP.NET_Core.Controllers
         }
 
         // GET: Products
-        [Authorize]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Product.ToListAsync());
         }
-
         public async Task<IActionResult> ShowSearchForm()
         {
             return View();
         }
 
-
         public async Task<IActionResult> ShowSearchResults(string Search)
         {
-            return View("Index", await _context.Product.Where(p => p.Name.Contains(Search)).ToListAsync());
+            return View("ShowSearchResults", await _context.Product.Where(p => p.Name.Contains(Search)).ToListAsync());
         }
 
         // GET: Products/Details/5
@@ -57,7 +55,6 @@ namespace Retail_ASP.NET_Core.Controllers
         }
 
         // GET: Products/Create
-        [Authorize]
         public IActionResult Create()
         {
             return View();
